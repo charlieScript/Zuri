@@ -18,10 +18,11 @@
     > update a tdata item using by passing the firstname as parameter
     ``
     ```JS
-    BODY
     {
       "todo": "todo"
     }
     ```
-- DELETE  `/todos/:todoID`
+- DELETE  `/:firstname`
     > gets all the todos
+
+

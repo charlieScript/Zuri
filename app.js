@@ -16,7 +16,7 @@ mongoose
     useUnifiedTopology: true,
     useCreateIndex: true,
     useFindAndModify: false,
-  })
+  }) 
   .then(() => {
     app.listen(PORT);
     console.log('server is started at', PORT);
